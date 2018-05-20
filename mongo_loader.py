@@ -4,7 +4,7 @@ from pymongo import MongoClient
 
 client = MongoClient("mongo")
 tarot_db = client.rolz_database
-tarot_collection = client.tarot
+tarot_collection = tarot_db.tarot
 
 if __name__ == "__main__":
     images_directory = './tarot_cards'

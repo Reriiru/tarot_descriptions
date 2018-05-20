@@ -19,7 +19,6 @@ if __name__ == "__main__":
     images_directory = './tarot_cards'
     description_directory = './tarot_descriptions'
 
-
     for description_filename, image_filename in zip(
                                     sorted(os.listdir(description_directory)),
                                     sorted(os.listdir(images_directory))):
